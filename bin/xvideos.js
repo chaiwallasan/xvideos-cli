@@ -32,6 +32,6 @@ if (Object.hasOwnProperty.call(argv, "help") || Object.hasOwnProperty.call(argv,
       return console.warn(err);
     }
     
-    console.log( res );
+    console.log( JSON.stringify( res ) );
   });
 }
